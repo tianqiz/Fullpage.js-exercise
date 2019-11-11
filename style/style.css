@@ -1,0 +1,51 @@
+body{
+    color: white !important;
+    font-family: 'Lato', sans-serif !important;
+
+}
+nav{
+    z-index: 70;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.section {
+    position: relative;
+    text-align:center;
+    font-size: 3em;
+  }
+
+#pageOne{
+    background: url('https://wallpaperaccess.com/full/241155.jpg');
+    background-size: cover;
+}
+
+#slideOne{
+    background: url('https://wallpaperaccess.com/full/241171.jpg');
+    background-size: cover;
+}
+
+#slideTwo{
+    background: url('https://wallpaperaccess.com/full/241178.jpg');
+    background-size: cover;
+}
+
+#pageTwo{
+    background: url('https://wallpaperaccess.com/full/241190.jpg');
+    background-size: cover;
+}
+
+#pageThree{
+    background: url('https://wallpaperaccess.com/full/241215.jpg');
+    background-size: cover;
+}
+
+.title{
+    font-size: 8rem;
+}
+
+
+
+.col-md-6 img{
+    width:80%
+}

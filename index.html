@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.css" integrity="sha256-MHZlm8KTLRxClmwQTYIfJEVbcRx1VIgfZJjaBOGCDoc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.7/fullpage.extensions.min.js" integrity="sha256-l/fwzXp9IwBn0fFrBx+IU4JGuSP5lZsfE5i8uMAWD90=" crossorigin="anonymous"></script>
+    <title>Fullpage</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Landscape</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">New</a>
+                    </li>    
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Login</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+    <div id="fullpage">
+                <div class="section" id="pageOne">
+                    <p class="title">Landscape</p>
+                    <h3>Explore what you've never seen before</h3>
+                    <button class="btn btn-light">Gallery</button>
+                    <button class="btn btn-dark">Download</button>
+                    <button class="btn btn-light">Signup</button>
+                </div>
+                <div class="section" >
+                    <div class="slide" data-anchor="slide1" id="slideOne">
+                            <p class="title">Nature</p>
+                            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                            <button class="btn btn-primary btn-large">Mountain</button>
+                            <button class="btn btn-success btn-large">Sea</button>
+                            <button class="btn btn-warning btn-large">Star</button>
+                    </div>
+                    <div class="slide" data-anchor="slide2" id="slideTwo">
+                            <p class="title">Beauty</p>
+                            <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                    </div>
+                </div>
+                <div class="section" id="pageTwo">
+                    <div class="row">
+                        <div class="col-md-6 w-75" >
+                            <p class="title">Left part</p>
+                            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, officiis, dolorem numquam placeat doloremque, obcaecati odit maxime consequuntur hic velit natus ipsam quam eius modi temporibus eum tempora in corrupti.</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <img src="./Screenshot 2019-11-10 23.09.11.png" alt="">
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="section" id="pageOne">Thank you!</div>
+    </div>
+
+    <script>
+//         var myFullpage = new fullpage('#fullpage', {
+//   licenseKey: 'YOUR KEY HERE',
+//   sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+// });
+new fullpage('#fullpage', {
+	//options here
+	autoScrolling:true,
+	scrollHorizontally: true,
+    slidesNavigation: true,
+	slidesNavPosition: 'bottom',
+});
+    </script>
+       
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+</body>
+</html>
